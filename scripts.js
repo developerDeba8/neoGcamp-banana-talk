@@ -1,4 +1,7 @@
-var userName = prompt("Please enter the username");
-var welcomeMessage = "Welcome to the neoGcamp " + userName;
+var btnTranslate = document.querySelector("#btn-translate");
 
-alert(welcomeMessage);
+function translateButtonClickHandler(){
+    console.log("clicked");
+}
+
+btnTranslate.addEventListener("click", translateButtonClickHandler);
